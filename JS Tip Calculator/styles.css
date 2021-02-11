@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+   font-family: "Montserrat", monospace, sans-serif;
+   background-color: #D7C0D0;
+}
+
+.cacl_container {
+    text-align: center;
+    background-color: #262730;
+    color: #EFF0D1;
+    height: 500px;
+    width: 360px;
+    margin: 50px auto;
+    border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.cacl_container h1 {
+  background-color: #77BA99;
+  color: #EFF0D1;
+  margin: 0;
+  padding: 10px 100px;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.bill_amt {
+    width: 187px;
+    padding: 0.3rem;
+    outline: none;
+    box-shadow: none;
+    margin-right: 1rem;
+  }
+
+#service_quality {
+    padding: 0.3rem;
+    outline: none;
+    box-shadow: none;
+    width: 200px;
+}
+
+#people_amt {
+    padding: 0.3rem;
+    font-size: 12px;
+    width: 100px;
+  }
+
+#calculate {
+    text-transform: uppercase;
+    display: block;
+    margin: 30px auto;
+    background: #D33F49;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  #calculate:hover {
+    background: #D7C0D0;
+    color: black;
+}
+
+#totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+#totalTip:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+#totalTip sup {
+    font-size: 20px;
+    top: -18px;
+  }
+  
+#totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    color: yellow;
+  }
